@@ -1,3 +1,7 @@
+# Project files
+dist
+
+# Mac junk
 *.DS_Store
 ._
 .Trashes
