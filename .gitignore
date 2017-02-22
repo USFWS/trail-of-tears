@@ -1,6 +1,9 @@
 # Project files
 dist
 
+# Dependencies
+*node_modules
+
 # Mac junk
 *.DS_Store
 ._
