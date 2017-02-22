@@ -1,0 +1,16 @@
+footer {
+  text-align: center;
+
+  li {
+    display: inline-block;
+    line-height: 26px;
+
+    &::after {
+      content: ' | ';
+
+      &:last-child {
+        content: '';
+      }
+    }
+  }
+}

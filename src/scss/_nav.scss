@@ -1,0 +1,33 @@
+nav {
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: none;
+  text-align: center;
+
+  a {
+    color: #777;
+    display: block;
+    padding: .5em;
+    text-decoration: none;
+
+    &:hover {
+      background: rgb(219, 219, 219);
+      background: linear-gradient(rgb(219, 219, 219) 0px, rgb(226, 226, 226) 100%);
+      color: #333;
+    }
+  }
+
+  ul {
+    padding: 0;
+
+    & > li {
+      display: inline-block;
+      margin: 0;
+    }
+  }
+  ul ul {
+    display: none;
+  }
+}
