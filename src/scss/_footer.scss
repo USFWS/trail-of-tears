@@ -1,4 +1,5 @@
 footer {
+  margin: 5em 0 0 0;
   text-align: center;
 
   li {
@@ -13,4 +14,16 @@ footer {
       }
     }
   }
+}
+
+.blue-goose {
+  width: 100px;
+}
+
+.last-updated {
+  color: rgb(107, 107, 107);
+}
+
+.compiled-by {
+  color: rgb(107, 107, 107);
 }
