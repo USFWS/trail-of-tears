@@ -4,9 +4,29 @@
     "content": "<p>In 1838 and 1839, the U.S. government forced large numbers of Cherokee, Choctaw, Chickasaw, Seminole and Muscogee tribespeople to move from their ancestral homes in the Southeast to present-day Oklahoma. Members of those tribes traveled by foot, horse, wagon or steamboat along the Trail of Tears – various routes westward commemorated by the <a href=\"https://www.nps.gov/trte/\" target=\"_blank\">Trail of Tears National Historic Trail</a>, which stretches 5,043 miles in nine states.</p><p>This photo essay features several national wildlife refuges associated with the Trail of Tears. This association is as much figurative as it is literal. Because rivers meander over time and have been dammed and channelized by engineers since the 19th century, the riverscapes and landscapes that one sees today along the Trail of Tears are not precisely what the tribespeople saw in the late 1830s. But the hardships they endured and the terrain they traversed is embodied in today&rsquo;s refuge habitat.</p><p>&ldquo;The Trail of Tears is one of the more despicable episodes in this nation&rsquo;s history,&rdquo; says Rick Kanaski, the U.S. Fish and Wildlife Service&rsquo;s Southeast Region historic preservation officer. &ldquo;The loss of family, land and culture for each of the affected tribes is incalculable. The pain and grief still echoes throughout Indian Country. Remembering and accurately portraying the history surrounding the Trail of Tears and the cost to the tribes is a start toward healing.&rduo;</p>",
     "images": [
       {
-        "src": "",
-        "alt": "",
-        "caption": ""
+        "src": "./images/1-artist-depiction-national-park-service.jpg",
+        "alt": "An artists rendition of seven Native Americans walking through the woods with their heads hung low.",
+        "caption": "Unknown artist rendition courtesy of the National Park Service."
+      },
+      {
+        "src": "./images/1-artist-depiction-sam-watts-scott-national-park-service.jpg",
+        "alt": "Artist rendition of dozens of Native Americans wearing heavy clothing walking down a long trail.",
+        "caption": "Sam Watts Scott rendition of the Trail of Tears courtesy of the National Park Service."
+      },
+      {
+        "src": "./images/1-trail-of-tears-map-national-park-service.jpg",
+        "alt": "Map of the Trail of Tears National Historic Trail from GA and NC to OK.",
+        "caption": "Map of the Trail of Tears National Historic Trail by the National Park Service."
+      },
+      {
+        "src": "./images/1-trail-of-tears-sign-in-tennessee-david-crockett-state-park.jpg",
+        "alt": "A sign next to a paved trail between a colorful fall forest.",
+        "caption": "Trail of Tears sign at David Crockett State Park in Tennessee. NO CREDIT!"
+      },
+      {
+        "src": "./images/1-trail-of-tears-sign-winter-national-park-service.jpg",
+        "alt": "A paved path through a winter forest with a trail sign in the foreground.",
+        "caption": "Trail of Tears in winter. photo by the National Park Service."
       }
     ]
   },
@@ -15,9 +35,34 @@
     "content": "<p><strong>Today,</strong> <a href=\"https://www.fws.gov/refuge/wheeler/\" target=\"_blank\">Wheeler National Wildlife Refuge</a>, along the Tennessee River in northern Alabama, provides excellent habitat for native wildlife. A total of 300 species of birds, 47 species of mammals, 75 species of reptiles and amphibians, 115 species of fish, 38 species of freshwater mussels, and 26 species of freshwater snails have been documented on the refuge. It also annually supports Alabama’s largest concentration of wintering waterfowl (ducks and geese).</p><p><strong>In June 1838,</strong> two separate groups of emigrating Cherokees totaling about 1,500 people camped along the river within what is now the refuge. There is a kiosk commemorating the forced emigration at the refuge’s Flint Creek Day Use Area, which also features a 1.5-mile walking trail through an oak-hickory forest.</p>",
     "images": [
       {
-        "src": "",
-        "alt": "",
-        "caption": ""
+        "src": "./images/2-wheeler-refuge-alabama-george-lee.jpg",
+        "alt": "A mixed forest of live oak and dogwood trees.",
+        "caption": "Wheeler National Wildlife Refuge in Alabama.  Photo by George Lee."
+      },
+      {
+        "src": "./images/2-wheeler-refuge-alabama-egrets-before-sunrise-george-lee.jpg",
+        "alt": "A flock of white birds with long curved necks in a shallow pond.",
+        "caption": "Egrits before sunrise at Wheeler National Wildlife Refuge in Alabama. Photo by George Lee."
+      },
+      {
+        "src": "./images/2-wheeler-refuge-alabama-sandhill-cranes-george-lee.jpg",
+        "alt": "A group of seven grey birds with long curved necks on a stone path next to an agricultural field.",
+        "caption": "Sandhill cranes at Wheeler National Wildlife Refuge in Alabama.  Photo by George Lee."
+      },
+      {
+        "src": "./images/2-wheeler-refuge-alabama-sandhill-cranes-swamp-george-lee.jpg",
+        "alt": "A large group of grey birds in shallow water of a swamp.",
+        "caption": "Sandhill cranes at Wheeler National Wildlife Refuge in Alabama. Photo by George Lee."
+      },
+      {
+        "src": "./images/2-wheeler-refuge-alabama-sandhill-cranes-on-ice-george-lee.jpg",
+        "alt": "Five gray birds with long curved necks walking on a frozen pond.",
+        "caption": "Sandhill crands walking on ice at Wheeler National Wildlife Refuge in Alabama. Photo by George Lee."
+      },
+      {
+        "src": "./images/2-wheeler-refuge-alabama-snowy-geese-george-lee.jpg",
+        "alt": "A large flock of white and black geese on a frozen pond.",
+        "caption": "Snowy geese on a frozen pond at Wheeler National Wildlife Refuge in Alabama. Photo by George Lee."
       }
     ]
   },
@@ -26,9 +71,19 @@
     "content": "<p><strong>Today,</strong> <a href=\"https://www.fws.gov/refuge/tennessee/\" target=\"_blank\">Tennessee National Wildlife Refuge</a> stretches 65 miles along the Tennessee River and is rich in birds – 306 of the 409 bird species known to inhabit the state of Tennessee have been documented on the refuge.</p><p><strong>In 1838-39,</strong> members of the Chickasaw, Muscogee and Cherokee tribes were transported via steamboat on the Tennessee River from Alabama northwest through what is now the refuge. There is no record of any of these steamboats stopping along the river in Tennessee for overnight camping. No known campsites or gravesites on the refuge are associated with the Trail of Tears. However, these records have not yet been fully researched.</p>",
     "images": [
       {
-        "src": "",
-        "alt": "",
-        "caption": ""
+        "src": "./images/3-tennessee-refuge-birdsong-overlook-patrick-martin-usfws.jpg",
+        "alt": "View of a large body of water from a forested hill.",
+        "caption": "Birdsong overlook at Tennessee National Wildlife Refuge.  Photo by Patrick Martin, USFWS."
+      },
+      {
+        "src": "./images/3-tennessee-refuge-cypress-flowers-clayton-ferrell-usfws.jpg",
+        "alt": "Bright yellow flowers on the shores of a meandering river.",
+        "caption": "Cypress trees and flowers at Tennessee National Wildlife Refuge.  Photo by Clayton Ferrell, USFWS."
+      },
+      {
+        "src": "./images/3-tennessee-refuge-pool-10-sunrise-clayton-ferrell-usfws.jpg",
+        "alt": "The sun rises over a flooded field with several dead trees.",
+        "caption": "Sunrise at Tennessee National Wildlife Refuge. Photo by Clayton Ferrell, USFWS."
       }
     ]
   },
@@ -37,9 +92,34 @@
     "content": "<p><strong>Today,</strong> <a href=\"https://www.fws.gov/refuge/chickasaw/\" target=\"_blank\">Chickasaw</a> and <a href=\"https://www.fws.gov/refuge/lower_hatchie/\" target=\"_blank\">Lower Hatchie National Wildlife Refuges</a>, both along the Mississippi River in western Tennessee, provide food, water, shelter and space necessary for variety of birds and wildlife to survive. Chickasaw Refuge, named after one of the tribes forced to move, conserves 37,500 acres of bottomland hardwood and adjacent habitats for wintering waterfowl and migratory birds. Lower Hatchie Refuge, near the confluence of the Hatchie and Mississippi Rivers, conserves 13,960 acres of similar habitat for similar wildlife.</p><p><strong>In 1838-39,</strong> forced emigres on one leg of the Trail of Tears passed what is now the refuge in or along east bank of the Mississippi. Specific tracts of land thought to be associated with the trail have been identified. But because of historical meandering of the river and the seasonal flooding on the river today, the landscape has changed, and there is little documentation. Still, today’s refuge habitat and vistas would be familiar to 19th-century tribespeople who traversed the trail. </p>",
     "images": [
       {
-        "src": "",
-        "alt": "",
-        "caption": ""
+        "src": "./images/4-chickasaw-refuge-tennessee-usfws.jpg",
+        "alt": "Thousands of birds take flight from a pond.",
+        "caption": "Birds taking flight at Chickasaw National Wildlife Refuge in Tennessee. Photo by USFWS."
+      },
+      {
+        "src": "./images/4-chickasaw-refuge-tennessee-2-usfws.jpg",
+        "alt": "A dozen different bird species litter a lake.",
+        "caption": "Different bird species on a lake at Chickasaw National Wildlife Refuge in Tennessee. Photo by USFWS."
+      },
+      {
+        "src": "./images/4-chickasaw-refuge-tennessee-3-usfws.jpg",
+        "alt": "A flooded forest.",
+        "caption": "Flooded forest at Chickasaw National Wildlife Refuge in Tennessee. Photo by USFWS."
+      },
+      {
+        "src": "./images/4-lower-hatchie-refuge-tennessee-usfws.jpg",
+        "alt": "A river banked by tall, dormant trees.",
+        "caption": "Lower Hatchie National Wildlife Refuge in Tennessee. Photo by USFWS."
+      },
+      {
+        "src": "./images/4-lower-hatchie-refuge-tennessee-2-usfws.jpg",
+        "alt": "A river banked by tall, dormant trees.",
+        "caption": "Lower Hatchie National Wildlife Refuge in Tennessee. Photo by USFWS."
+      },
+      {
+        "src": "./images/4-lower-hatchie-refuge-tennessee-3-usfws.jpg",
+        "alt": "Large cypress trees emerge from a swollen river.",
+        "caption": "Cypress trees at Lower Hatchie National Wildlife Refuge in Tennessee. Photo by USFWS."
       }
     ]
   },
@@ -48,9 +128,19 @@
     "content": "<p><strong>Today,</strong> <a href=\"https://www.fws.gov/refuge/cypress_creek/\" target=\"_blank\">Cypress Creek National Wildlife Refuge</a>, cradled between the Ohio and Mississippi Rivers in southernmost Illinois, is home to diverse bottomland tree species, including bald cypress trees that are hundreds of years old. Researchers have catalogued 128 species of breeding songbirds, 49 species of mammals, 32 amphibians, 43 reptiles, 84 freshwater fish, 47 native mussels and 34 crustacean species at or near the refuge. Because of the region’s ecological significance, Cypress Creek Wetlands is a <a href=\"https://rsis.ramsar.org/ris/711\" target=\"_blank\">RAMSAR Wetland of International Importance</a>.</p><p><strong>In 1838-39,</strong> a leg of the Trail of Tears crossed southern Illinois about five miles north of what is now the refuge.</p>",
     "images": [
       {
-        "src": "",
-        "alt": "",
-        "caption": ""
+        "src": "./images/5-cypress-creek-refuge-illinois-usfws.jpg",
+        "alt": "Hundreds of birds flying over a wetland.",
+        "caption": "Birds taking flight at Cypress Creek National Wildlife Refuge in Illinois. Photo by USFWS."
+      },
+      {
+        "src": "./images/5-cypress-creek-refuge-illinois-2-usfws.jpg",
+        "alt": "A group of canoes travels down a river.",
+        "caption": "Canoers at Cypress Creek National Wildlife Refuge in Illinois. Photo by USFWS."
+      },
+      {
+        "src": "./images/5-cypress-creek-refuge-illinois-3-usfws.jpg",
+        "alt": "Green vegetation emerges from a flooded swamp.",
+        "caption": "Cypress Creek National Wildlife Refuge in Illinois. Photo by USFWS."
       }
     ]
   },
@@ -59,9 +149,29 @@
     "content": "<p><strong>Today,</strong> <a href=\"https://www.fws.gov/refuge/white_river/\" target=\"_blank\">Dale Bumpers White River National Wildlife Refuge</a> lies mostly in the floodplain of the White River in eastern Arkansas. The river flows 93 miles through the refuge, which includes fertile bottomland hardwood forests and about 300 lakes interlaced with streams, sloughs and bayous. One result is habitat for numerous species of native wildlife and migratory birds. Another result is fabulous recreation for some 290,000 visitors annually.</p><p><strong>In 1838-39,</strong> Choctaw, Creek, Chickasaw and Cherokee tribespeople were transported along a section of the Military Road through what is now the refuge. The Military Road was built to connect Memphis and Little Rock. The road crossed the White River near the present-day community of Clarendon. During the removal period, one ferry transported travelers on the road across the White River and another carried travelers across nearby Rock Roe Bayou.</p>",
     "images": [
       {
-        "src": "",
-        "alt": "",
-        "caption": ""
+        "src": "./images/6--dale-bumpers-white-river-refuge-arkansas-patera-usfws.jpg",
+        "alt": "Dozens of cypress trees emerge from water.",
+        "caption": "Cypress trees at Dale Bumpers White River National Wildlife Refuge in Arkansas. Photo by Pay Patera, USFWS."
+      },
+      {
+        "src": "./images/6-dale-bumpers-white-river-refuge-arkansas-1-garry-tucker-usfws.jpg",
+        "alt": "A river covered in a green film banked by a mature forest.",
+        "caption": "A forested river at Dale Bumpers White River National Wildlife Refuge in Arkansas. Photo by Garry Tucker, USFWS."
+      },
+      {
+        "src": "./images/6-dale-bumpers-white-river-refuge-arkansas-2-garry-tucker-usfws.jpg",
+        "alt": "A woman looks over a river stained brown with sediment.",
+        "caption": "Dale Bumpers White River National Wildlife Refuge in Arkansas. Photo by Garry Tucker, USFWS."
+      },
+      {
+        "src": "./images/6-dale-bumpers-white-river-refuge-arkansas-3-garry-tucker-usfws.jpg",
+        "alt": "A mature tree covered in moss.",
+        "caption": "Dale Bumpers White River National Wildlife Refuge in Arkansas. Photo by Garry Tucker, USFWS."
+      },
+      {
+        "src": "./images/6-dale-bumpers-white-river-refuge-arkansas-st-charles-arkansas-dept-of-parks-and-tourism.jpg",
+        "alt": "A river banked by lush green trees.",
+        "caption": "Dale Bumpers White River National Wildlife Refuge in Arkansas. Photo by Arkansas Department of Parks and Tourism."
       }
     ]
   },
@@ -70,9 +180,34 @@
     "content": "<p><strong>Today,</strong> <a href=\"https://www.fws.gov/refuge/holla_bend/\" target=\"_blank\">Holla Bend National Wildlife Refuge</a>, along the Arkansas River in central Arkansas, provides habitat for a variety of wildlife, wintering waterfowl, migratory songbirds and resident bird species, including bald eagles. In winter, it is not uncommon for the refuge to host up to 100,000 ducks and geese at once.</p><p><strong>In 1838-39,</strong> the Arkansas River flowed through what is now an oxbow off the river’s main channel on the refuge. The refuge’s wildlife observation tower overlooks the Holla Bend oxbow, through which the Trail of Tears went. A sign commemorates the trail.</p>",
     "images": [
       {
-        "src": "",
-        "alt": "",
-        "caption": ""
+        "src": "./images/7-holla-bend-collage-tim-carr-and-usfws.jpg",
+        "alt": "A collage of bird images and a trail of tears sign.",
+        "caption": "Collage of images from Holla Bend National Wildlife Refuge in Arkansas. Photos by Tim Carr and USFWS."
+      },
+      {
+        "src": "./images/7-holla-bend-refuge-interpretation-sign-near-refuge-along-arkansas-river-national-park-service.jpg",
+        "alt": "A sign along the river.",
+        "caption": "An interpretive sign along the Arkansas river near Holla Bend National Wildlife Refuge in Arkansas. Photo by the National Park Service."
+      },
+      {
+        "src": "./images/7-holla-bend-refuge-arkansas-bald-eagle-usfws.jpg",
+        "alt": "A bald eagle perched on the branch of a dormant tree.",
+        "caption": "Bald eagle at Holla Bend National Wildlife Refuge in Arkansas. Photo by USFWS."
+      },
+      {
+        "src": "./images/7-holla-bend-refuge-arkansas-ducks-on-old-river-channel-tim-carr.jpg",
+        "alt": "Hundreds of ducks swimming in a lake.",
+        "caption": "Ducks at Holla Bend National Wildlife Refuge in Arkansas. Photo by Tim Carr."
+      },
+      {
+        "src": "./images/7-holla-bend-refuge-arkansas-scissor-tailed-flycatcher-tim-carr.jpg",
+        "alt": "A light blue bird with very long tailfeathers.",
+        "caption": "A Scissor-tailed flycatcher at Holla Bend National Wildlife Refuge in Arkansas. Photo by Tim Carr."
+      },
+      {
+        "src": "./images/7-holla-bend-refuge-arkansas-trail-of-tears-sign-usfws.jpg",
+        "alt": "An interpretive sign for the Trail of Tears.",
+        "caption": "A sign for the Trail of Tears at Holla Bend National Wildlife Refuge in Arkansas. Photo by USFWS."
       }
     ]
   },
@@ -81,9 +216,24 @@
     "content": "<p><strong>Today,</strong> <a href=\"https://www.fws.gov/refuge/sequoyah/\" target=\"_blank\">Sequoyah National Wildlife Refuge</a>, in the foothills of the Ozark Mountain at the confluence of the Arkansas and Canadian Rivers in eastern Oklahoma, is seasonal home to tens of thousands of mallards, geese and other waterfowl as well as a diversity of mammals, reptiles, fish and amphibians. The rivers, sloughs and oxbows provide feeding and spawning habitat for native sport fish. The watery landscape also supports pygmy rattlesnake and cottonmouth, red-eared slider turtles and alligator snapping turtles.</p><p><strong>In 1838-39,</strong> as a panel exhibit at the refuge says, “More than 15,000 Cherokee began their trek west from their eastern homeland to Indian Territory (present-day Oklahoma) over the Trail of Tears. They traveled by roads and rivers, including this stretch of the Arkansas River. Nearly 1,000 died during the journey westward, and up to 4,000 died as a result of the forced removal process.” Another part of the exhibit says: “Despite the hardships of their journeys, members of the five removed tribes established new lives in the West. They stand as successful sovereign nations, proudly preserving cultural traditions while adapting to the challenges of the 21st century.”</p>",
     "images": [
       {
-        "src": "",
-        "alt": "",
-        "caption": ""
+        "src": "./images/8-sequoyah-refuge-oklahoma-3-arkansas-river-usfws.jpg",
+        "alt": "Two signs on the bank of a river.",
+        "caption": "Two interpretive signs along the Arkansas River at Sequoyah National Wildlife Refuge in Oklahoma. Photo by USFWS."
+      },
+      {
+        "src": "./images/8-sequoyah-refuge-oklahoma-1-usfws.jpg",
+        "alt": "A sign for the Trail of Tears.",
+        "caption": "An interpretive sign along the Arkansas River at Sequoyah National Wildlife Refuge in Oklahoma. Photo by USFWS."
+      },
+      {
+        "src": "./images/8-sequoyah-refuge-oklahoma-2-usfws.jpg",
+        "alt": "A sign for the Trail of Tears.",
+        "caption": "An interpretive sign along the Arkansas River at Sequoyah National Wildlife Refuge in Oklahoma. Photo by USFWS."
+      },
+      {
+        "src": "./images/8-sequoyah-refuge-oklahoma-birds-usfws.jpg",
+        "alt": "Silhouettes of hundreds of birds in front of a colorful sky.",
+        "caption": "Hundreds of birds at Sequoyah National Wildlife Refuge in Oklahoma. Photo by USFWS."
       }
     ]
   },
@@ -92,9 +242,9 @@
     "content": "<p><strong>Today,</strong> <a href=\"https://www.fws.gov/refuge/egmont_key/\" target=\"_blank\">Egmont Key National Wildlife Refuge</a>, at the mouth of Tampa Bay on Florida’s west coast, supports more than 117 species of nesting, migratory and wintering birds. It also provides nesting habit for threatened Atlantic loggerhead sea turtles and for a large population of gopher tortoises and box turtles.</p><p><strong>In the mid-1800s,</strong> Egmont Key was the site of the forced removal of Seminole tribespeople. The route followed the Gulf of Mexico coast up to Florida’s panhandle, went over towards New Orleans, progressed up the Mississippi River, connected with the main trail at the Arkansas River and continued to Fort Gibson in Oklahoma. The last trip was in 1858, when Seminole Chief Billy Bowlegs and about 160 individuals left Egmont Key aboard the Grey Cloud, a steamboat.</p>",
     "images": [
       {
-        "src": "",
-        "alt": "",
-        "caption": ""
+        "src": "./images/9-egmont-key-refuge-florida-joyce-kleen-usfws.jpg",
+        "alt": "Palm trees emerging from sandy soil.",
+        "caption": "Palm trees at Egmont Key National Wildlife Refuge in Florida. Photo by Joyce Kleen, USFWS."
       }
     ]
   }
