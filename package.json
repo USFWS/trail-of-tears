@@ -12,7 +12,7 @@
     "watch:sass": "node-sass -w src/scss/styles.scss dist/css/styles.css",
     "build:sass": "node-sass --output-style compressed src/scss/styles.scss | postcss -u autoprefixer -o dist/css/styles.css",
     "serve": "browser-sync start --server 'dist' --files 'dist/**/*' --log-level 'silent'",
-    "prestart": "npm run mkdist & npm run build:sass",
+    "prestart": "npm run mkdist & npm run build:sass & npm run images",
     "start": "npm run watch:sass & npm run watch:html & npm run serve",
     "prebuild": "npm run mkdist && npm run build:sass"
   },
@@ -42,6 +42,7 @@
     "htmltidy": "0.0.6",
     "imagemin": "^5.2.2",
     "imagemin-mozjpeg": "^6.0.0",
+    "imagemin-svgo": "^5.2.0",
     "make-runnable": "^1.1.1",
     "mkdirp": "^0.5.1",
     "moment": "^2.17.1",

@@ -3,6 +3,7 @@ const sharp = require('sharp');
 const chalk = require('chalk');
 const imagemin = require('imagemin');
 const imageminMozjpeg = require('imagemin-mozjpeg');
+const imageminSvgo = require('imagemin-svgo');
 const rimraf = require('rimraf');
 
 const fs = require('fs');
@@ -27,15 +28,28 @@ function build(done) {
 
       async.eachLimit(files, 5, (name, cb) => {
         const filepath = path.join(input, name);
-        processHeroImage(filepath, cb);
+        const extension = path.extname(name);
+        if (extension === '.svg') processSvg(filepath, cb);
+        else processImage(filepath, cb);
       }, done);
     });
   });
 }
 
-function processHeroImage(filepath, done) {
+function processSvg(filepath, done) {
+  imagemin([filepath], 'dist/images', {
+    use: [
+      imageminSvgo()
+    ]
+  }).then(() => {
+    chalk.green(`Optimized ${path.basename(filepath)}`);
+    done();
+  }).catch(done);
+}
+
+function processImage(filepath, done) {
   const filename = path.basename(filepath);
-  console.log(filename);
+  chalk.green(filename);
 
   sharp(filepath)
     .resize(width)
@@ -67,7 +81,7 @@ function removeImage(filepath) {
   });
 }
 
-module.exports.process = processHeroImage;
+module.exports.process = processImage;
 module.exports.remove = removeImage;
 module.exports.build = build;
 
