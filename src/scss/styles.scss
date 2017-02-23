@@ -1,8 +1,10 @@
 @import 'reset';
+@import 'base';
 // Colors
 $blue: #1874CD;
 $cream: #F0F0F0; // Background color on html
 
 @import 'header';
 @import 'nav';
+@import 'trail-list';
 @import 'footer';
