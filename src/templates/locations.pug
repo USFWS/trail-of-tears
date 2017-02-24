@@ -1,4 +1,8 @@
 for l in locations
-  li
-    h2= l.name
-    p| !{l.content}
+  - var slug = slugify(l.properties.name);
+  li(class=slug)
+    figure
+      img(src=l.properties.images[0].src, alt=l.properties.images[0].alt)
+      figcaption= l.properties.images[0].caption
+    h2| !{l.properties.name}
+    p| !{l.properties.content}
