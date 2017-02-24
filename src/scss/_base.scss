@@ -1,4 +1,26 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #003976;
+  font-family: Merriweather, Georgia, serif;
+}
+
 p {
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.25;
+}
+
+strong {
+  color: #003976;
 }
