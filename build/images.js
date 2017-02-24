@@ -3,6 +3,7 @@ const sharp = require('sharp');
 const chalk = require('chalk');
 const imagemin = require('imagemin');
 const imageminMozjpeg = require('imagemin-mozjpeg');
+const imageminPngquant = require('imagemin-pngquant');
 const imageminSvgo = require('imagemin-svgo');
 const rimraf = require('rimraf');
 
@@ -12,7 +13,7 @@ const path = require('path');
 const input = 'src/images/';
 const output = 'dist/images/';
 
-const width = 600;
+const width = 750;
 
 function build(done) {
   chalk.blue('Processing Images...');
@@ -30,6 +31,7 @@ function build(done) {
         const filepath = path.join(input, name);
         const extension = path.extname(name);
         if (extension === '.svg') processSvg(filepath, cb);
+        else if (extension === '.png') processPng(filepath, cb);
         else processImage(filepath, cb);
       }, done);
     });
@@ -37,6 +39,17 @@ function build(done) {
 }
 
 function processSvg(filepath, done) {
+  imagemin([filepath], 'dist/images', {
+    use: [
+      imageminPngquant()
+    ]
+  }).then(() => {
+    chalk.green(`Optimized ${path.basename(filepath)}`);
+    done();
+  }).catch(done);
+}
+
+function processPng(filepath, done) {
   imagemin([filepath], 'dist/images', {
     use: [
       imageminSvgo()
