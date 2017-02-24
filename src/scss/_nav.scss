@@ -21,13 +21,40 @@ nav {
 
   ul {
     padding: 0;
+  }
+}
 
-    & > li {
-      display: inline-block;
-      margin: 0;
+.dropdown {
+  display: inline-block;
+  margin: 0;
+  position: relative;
+
+  &:hover {
+    .dropdown-menu {
+      display: block;
+      position: absolute;
+      text-align: left;
     }
   }
-  ul ul {
-    display: none;
+}
+
+.dropdown-menu {
+  background: white;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  box-shadow: 0 0 10px 5px rgba(193, 188, 188, 0.4);
+  display: none;
+  list-style: none;
+  min-width: 200px;
+  z-index: 410;
+
+  & > li > a {
+    padding: auto .25em;
+
+    &:hover {
+      background-image: linear-gradient(to bottom,#f5f5f5 0,#e8e8e8 100%);
+    }
   }
 }
