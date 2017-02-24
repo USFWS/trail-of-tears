@@ -1,15 +1,15 @@
 const fs = require('fs');
 
-const chalk = require('chalk');
 const cheerio = require('cheerio');
 const moment = require('moment');
 const parallel = require('async/parallel');
 const pug = require('pug');
 const tidy = require('htmltidy').tidy;
+const slugify = require('underscore.string/slugify');
 
 const template = pug.compileFile('./src/templates/locations.pug');
 const htmlPath = 'src/index.html';
-const jsonPath = 'src/data/locations.json'
+const jsonPath = 'src/data/locations.geojson'
 const htmlOutPath = 'dist/index.html';
 
 parallel([
@@ -18,7 +18,7 @@ parallel([
 ], buildPage);
 
 function buildPage (err, results) {
-    if (err) chalk.red(err);
+    if (err) console.log(err);
 
     const $ = cheerio.load(results[0]);
     const locations = JSON.parse(results[1]);
@@ -29,14 +29,13 @@ function buildPage (err, results) {
       wrap: 10000
     };
 
-    $('.locations').append( template({ locations }) );
+    $('.locations').append( template({ locations: locations.features, slugify }) );
     $('.last-updated').append(`Last Updated: ${moment().format('MMMM D, YYYY')}`);
 
     tidy($.html(), tidyOptions, (err, prettyHtml) => {
       if (err) chalk.red(err);
       writeOutput(htmlOutPath, prettyHtml);
     });
-
   }
 
 function writeOutput(path, data) {
