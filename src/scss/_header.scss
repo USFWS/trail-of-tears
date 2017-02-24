@@ -1,6 +1,5 @@
 header {
   margin: auto;
-  max-width: 1000px;
   position: relative;
 }
 
@@ -22,6 +21,7 @@ header {
 
 .bars {
   list-style: none;
+  margin-bottom: 0;
   padding: 0;
 }
 
@@ -67,7 +67,7 @@ header {
     width: calc(100% - 40px);
   }
 
-  @media (min-width: 800px) {
+  @media (min-width: 750px) {
     display: block;
   }
 }
@@ -95,15 +95,20 @@ header {
 }
 
 .social-media {
-  float: right;
-  height: 45px;
-  list-style: none;
-  margin-right: 1em;
+  display: none;
 
-  li {
-    display: inline-block;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+  @media (min-width: 505px) {
+    display: block;
+    float: right;
+    height: 45px;
+    list-style: none;
+    margin-right: 1em;
+
+    li {
+      display: inline-block;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
   }
 }
