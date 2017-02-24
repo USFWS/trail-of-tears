@@ -1,0 +1,62 @@
+.infowindow-container {
+  background: rgba(250, 250, 250, .9);
+  height: calc(100vh - 170px);
+  left: 0;
+  position: absolute;
+  width: 100%;
+  transform: translateX(-100%);
+  transition: transform .3s;
+  top: 170px;
+  z-index: 403;
+
+  &.active {
+    transform: translateX(0);
+    transition: transform .3s;
+  }
+
+  @media (min-width: 600px) {
+    width: 400px;
+  }
+}
+
+.infowindow-content {
+  bottom: 0;
+  left: 0;
+  padding: 2%;
+  position: absolute;
+  overflow-y: scroll;
+  top: 0;
+  width: 100%;
+}
+
+.infowindow-toggle {
+  background: $blue;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  padding: 5px 15px;
+  position: absolute;
+  right: -35px;
+  transform: rotate(90deg);
+  top: 100px;
+  z-index: -1;
+}
+
+.infowindow-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    margin: 5em auto;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

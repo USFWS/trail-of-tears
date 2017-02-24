@@ -1,0 +1,23 @@
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+figure {
+  display: table;
+  margin: auto;
+
+  img {
+    display: block;
+  }
+
+  figcaption {
+    caption-side: bottom;
+    color: #003976;
+    display: table-caption;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.25;
+    padding: .5em;
+  }
+}

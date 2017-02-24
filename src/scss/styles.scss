@@ -1,4 +1,5 @@
 @import 'reset';
+@import 'fonts';
 @import 'base';
 // Colors
 $blue: #1874CD;
@@ -6,5 +7,20 @@ $cream: #F0F0F0; // Background color on html
 
 @import 'header';
 @import 'nav';
+@import 'figure';
 @import 'trail-list';
+@import 'map';
+@import 'infowindow';
 @import 'footer';
+
+// Vendor
+@import '../../node_modules/leaflet/dist/leaflet';
+
+.data-sources {
+  margin: auto;
+  max-width: 365px;
+
+  h2 {
+    text-align: center;
+  }
+}
