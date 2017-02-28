@@ -13,6 +13,7 @@ const emitter = require('./mediator');
 L.Icon.Default.imagePath = './images/';
 
 const list = document.querySelector('.locations');
+const modal = document.querySelector('.modal');
 let locations;
 let leaf;
 
@@ -25,6 +26,9 @@ function init(err, results) {
 
   const mapDiv = document.createElement('div');
   const header = document.querySelector('header');
+
+  document.body.addEventListener('click', removeModal);
+
   const locations = results[0];
   remove(list);
   mapDiv.classList.add('map');
@@ -34,17 +38,18 @@ function init(err, results) {
     locations: locations.features,
     emitter
   });
+
+  L.popup()
+    .setLatLng([34.75, -86.95])
+    .setContent("Click on a National Wildlife Refuge<br> to learn more.")
+    .openOn(leaf);
 }
 
 function createMap(geojson, mapDiv) {
   const leaf = L.map(mapDiv, { scrollWheelZoom: false, zoomControl: false });
   const layer = L.geoJson(geojson, { onEachFeature, pointToLayer }).addTo(leaf);
-  const toner = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.{ext}', {
-  	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-  	subdomains: 'abcd',
-  	minZoom: 0,
-  	maxZoom: 20,
-  	ext: 'png'
+  L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+  	attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
   }).addTo(leaf);
 
   new L.Control.Zoom({ position: 'bottomright' }).addTo(leaf);
@@ -93,4 +98,8 @@ function remove(el) {
 
 function insertAfter(newNode, referenceNode) {
     referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+}
+
+function removeModal() {
+  remove(modal);
 }
