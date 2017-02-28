@@ -24,3 +24,22 @@ p {
 strong {
   color: #003976;
 }
+
+a {
+  color: $blue;
+
+  &:visited {
+    color: $blue;
+  }
+
+  &:active,
+  &:hover {
+    color: darken($blue, 10);
+  }
+}
+
+.leaflet-popup-content {
+  color: $blue !important;
+  font-weight: bold;
+  text-align: center;
+}

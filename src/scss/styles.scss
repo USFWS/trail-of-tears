@@ -1,9 +1,10 @@
-@import 'reset';
-@import 'fonts';
-@import 'base';
 // Colors
 $blue: #1874CD;
 $cream: #F0F0F0; // Background color on html
+
+@import 'reset';
+@import 'fonts';
+@import 'base';
 
 @import 'header';
 @import 'nav';
@@ -12,6 +13,7 @@ $cream: #F0F0F0; // Background color on html
 @import 'map';
 @import 'infowindow';
 @import 'footer';
+@import 'modal';
 
 // Vendor
 @import '../../node_modules/leaflet/dist/leaflet';
