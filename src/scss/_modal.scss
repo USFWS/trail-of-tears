@@ -1,10 +1,14 @@
 .modal {
   bottom: 0;
   height: 100vh;
-  left: 0;
+  left: -1000000px;
   position: fixed;
   width: 100%;
   z-index: 5000;
+
+  &.show {
+    left: 0;
+  }
 }
 
 .modal--back {
@@ -22,7 +26,7 @@
   margin: auto;
   max-width: 500px;
   overflow: auto;
-  padding: 2em;
+  padding: 1em;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -43,4 +47,21 @@
     line-height: 38px;
     margin: 0 0 0 100px;
   }
+
+  button {
+    background: white;
+    border: none;
+    color: #003976;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0;
+    position: absolute;
+    right: 5px;
+    top: 0;
+  }
+}
+
+.modal-checkbox-container {
+  float: right;
+  margin: 2em 0 0 0;
 }
