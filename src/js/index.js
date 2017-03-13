@@ -2,6 +2,7 @@ require('classlist-polyfill');
 
 const L = require('leaflet');
 const xhr = require('xhr');
+const store = require('store');
 const parallel = require('async/parallel');
 const objectAssign = require('object-assign');
 const slugify = require('underscore.string/slugify');
@@ -14,8 +15,14 @@ L.Icon.Default.imagePath = './images/';
 
 const list = document.querySelector('.locations');
 const modal = document.querySelector('.modal');
+const modalOptions = store.get('modal');
 let locations;
 let leaf;
+
+document.querySelector('.modal-checkbox').addEventListener('click', storeUserPreference);
+
+if (modalOptions && modalOptions.display === false) remove(modal);
+else modal.classList.add('show');
 
 parallel([
   getFile.bind(null, './data/locations.js')
@@ -38,19 +45,12 @@ function init(err, results) {
     locations: locations.features,
     emitter
   });
-
-  L.popup()
-    .setLatLng([34.75, -86.95])
-    .setContent("Click on a National Wildlife Refuge<br> to learn more.")
-    .openOn(leaf);
 }
 
 function createMap(geojson, mapDiv) {
   const leaf = L.map(mapDiv, { scrollWheelZoom: false, zoomControl: false });
   const layer = L.geoJson(geojson, { onEachFeature, pointToLayer }).addTo(leaf);
-  L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
-  	attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
-  }).addTo(leaf);
+  L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}').addTo(leaf);
 
   new L.Control.Zoom({ position: 'bottomright' }).addTo(leaf);
 
@@ -59,7 +59,6 @@ function createMap(geojson, mapDiv) {
 }
 
 function onEachFeature(feature, layer) {
-  // layer.bindPopup(feature.properties.name);
   layer.on('click', scrollToLocation);
 }
 
@@ -97,9 +96,13 @@ function remove(el) {
 }
 
 function insertAfter(newNode, referenceNode) {
-    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+  referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
 
 function removeModal() {
   remove(modal);
+}
+
+function storeUserPreference(e) {
+  store.set('modal', { display: false });
 }
