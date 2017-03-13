@@ -22,13 +22,17 @@
   <div class='modal'>
     <div class='modal--back'></div>
     <div class='modal--content'>
+      <button class="close">&times;</button>
       <h1>National Wildlife Refuges Along the Trail of Tears</h1>
-      <p>Click on the blue trail or blue goose map marker to learn more.  Click anywhere to continue.</p>
-      <br/>
+      <p>Click on any Blue Goose marker along the blue trail to learn more about the individual refuge and its location. Click anywhere to continue.</p>
 
       <h2>Legend</h2>
       <img src='./images/blue-goose.svg' alt='Logo of the National Wildlife Refuge System.'/>
       <h3>National Wildlife Refuge</h3>
+
+      <div class='modal-checkbox-container'>
+        <label for=''>Do not show this message again: <input type='checkbox' class="modal-checkbox" /></label>
+      </div>
 
     </div>
   </div>
@@ -194,8 +198,9 @@
   <section class="data-sources">
     <h2>Data Sources</h2>
     <ul>
-      <li><a href='https://services1.arcgis.com/fBc8EJBxQRMcHlei/ArcGIS/rest/services/NHT_TRTE/FeatureServer/0' target="_blank">National Park Service Trail of Tears</a></li>
+      <li><a href='https://irma.nps.gov/DataStore/Reference/Profile/2238914' target="_blank">National Park Service, National Trails Intermountain Region. 2017. Trail of Tears National Historic Trail.</a> <em>These trails were simplified for the web interface.</em></li>
       <li><a href='https://www.arcgis.com/home/webmap/viewer.html?url=https://services.arcgis.com/QVENGdaPbd4LUkLV/ArcGIS/rest/services/FWSVisitorServices/FeatureServer/0&source=sd' target="_blank">U.S. Fish and Wildlife Service Visitor Centers</a></li>
+      <li>Basemap: Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community</li>
     </ul>
   </section>
 
