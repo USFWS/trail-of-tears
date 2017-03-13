@@ -87,6 +87,7 @@
     "leaflet": "^1.0.3",
     "object-assign": "^4.1.1",
     "scroll": "^2.0.0",
+    "store": "^2.0.3",
     "underscore.string": "^3.3.4",
     "xhr": "^2.4.0"
   }
