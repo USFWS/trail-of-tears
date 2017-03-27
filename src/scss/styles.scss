@@ -14,15 +14,7 @@ $cream: #F0F0F0; // Background color on html
 @import 'infowindow';
 @import 'footer';
 @import 'modal';
+@import 'data-sources';
 
 // Vendor
 @import '../../node_modules/leaflet/dist/leaflet';
-
-.data-sources {
-  margin: auto;
-  max-width: 365px;
-
-  h2 {
-    text-align: center;
-  }
-}
