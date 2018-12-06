@@ -3750,19 +3750,19 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "St. Marks<br>National Wildlife Refuge",
-        "content": "<p><strong>In the mid-1800s</strong>, on May 5, 1858, the <em>Grey Cloud</em>, a steamer with 160 Seminole prisoners aboard, stopped in the town of St. Marks to take on wood for fuel. Polly Parker and a dozen Seminole prisoners were given permission to go ashore to gather roots and herbs for medicine. Parker gave a signal, and the prisoners scattered into the woods &amp; forest that today is part of <a href='https://www.fws.gov/refuge/St_Marks/'>St. Marks National Wildlife Refuge</a>. Parker returned to her home near Lake Okeechobee and died in 1921.</p><p><strong>Today</strong>, the refuge, about 20 miles south of Tallahassee on Florida’s northwest coast, features saltwater marsh, freshwater marsh and longleaf pine habitat whose understory vegetation includes more than 650(!) plant species. Red-cockaded woodpeckers, bald eagles, eastern indigo snakes, gopher tortoises and dozens of other bird, reptile and amphibian species can be found on the refuge.</p>",
+        "name": "Egmont Key<br>National Wildlife Refuge",
+        "content": "<p><strong>In the mid-1800s</strong>, what is now <a href='https://www.fws.gov/refuge/egmont_key/' target='_blank'>Egmont Key National Wildlife Refuge</a> was the site of the forced removal of Seminole tribespeople. Their route followed the Gulf of Mexico coast up to Florida&rsquo;s panhandle, headed toward New Orleans, progressed up the Mississippi River, connected with the main trail at the Arkansas River and continued to Fort Gibson in Oklahoma. The last trip was in 1858, when Seminole Chief Billy Bowlegs and about 160 individuals left Egmont Key aboard the <em>Grey Cloud</em>, a steamboat.</p><p><strong>Today</strong>, the refuge, at the mouth of Tampa Bay on Florida&rsquo;s west coast, provides nesting habitat for threatened Atlantic loggerhead sea turtles and for a large population of gopher tortoises and box turtles.</p>",
         "images": [
           {
-            "src": "./images/10-st-marks-observation-deck-valerie-fellows-usfws.jpg",
-            "alt": "An observation deck on the edge of a canal surrounded by palm trees.",
-            "caption": "St. Marks National Wildlife Refuge, Florida. (Photo: Valerie Fellows/USFWS)"
+            "src": "./images/9-egmont-key-refuge-florida-joyce-kleen-usfws.jpg",
+            "alt": "Palm trees emerging from sandy soil.",
+            "caption": "Egmont Key National Wildlife Refuge, Florida. (Photo: Joyce Kleen/USFWS)"
           }
         ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.169313, 30.084111]
+        "coordinates": [-82.763712, 27.590433]
       }
     },
     {
@@ -3786,19 +3786,19 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Egmont Key<br>National Wildlife Refuge",
-        "content": "<p><strong>In the mid-1800s</strong>, what is now <a href='https://www.fws.gov/refuge/egmont_key/' target='_blank'>Egmont Key National Wildlife Refuge</a> was the site of the forced removal of Seminole tribespeople. Their route followed the Gulf of Mexico coast up to Florida&rsquo;s panhandle, headed toward New Orleans, progressed up the Mississippi River, connected with the main trail at the Arkansas River and continued to Fort Gibson in Oklahoma. The last trip was in 1858, when Seminole Chief Billy Bowlegs and about 160 individuals left Egmont Key aboard the <em>Grey Cloud</em>, a steamboat.</p><p><strong>Today</strong>, the refuge, at the mouth of Tampa Bay on Florida&rsquo;s west coast, provides nesting habitat for threatened Atlantic loggerhead sea turtles and for a large population of gopher tortoises and box turtles.</p>",
+        "name": "St. Marks<br>National Wildlife Refuge",
+        "content": "<p><strong>In the mid-1800s</strong>, on May 5, 1858, the <em>Grey Cloud</em>, a steamer with 160 Seminole prisoners aboard, stopped in the town of St. Marks to take on wood for fuel. Polly Parker and a dozen Seminole prisoners were given permission to go ashore to gather roots and herbs for medicine. Parker gave a signal, and the prisoners scattered into the woods &amp; forest that today is part of <a href='https://www.fws.gov/refuge/St_Marks/'>St. Marks National Wildlife Refuge</a>. Parker returned to her home near Lake Okeechobee and died in 1921.</p><p><strong>Today</strong>, the refuge, about 20 miles south of Tallahassee on Florida’s northwest coast, features saltwater marsh, freshwater marsh and longleaf pine habitat whose understory vegetation includes more than 650(!) plant species. Red-cockaded woodpeckers, bald eagles, eastern indigo snakes, gopher tortoises and dozens of other bird, reptile and amphibian species can be found on the refuge.</p>",
         "images": [
           {
-            "src": "./images/9-egmont-key-refuge-florida-joyce-kleen-usfws.jpg",
-            "alt": "Palm trees emerging from sandy soil.",
-            "caption": "Egmont Key National Wildlife Refuge, Florida. (Photo: Joyce Kleen/USFWS)"
+            "src": "./images/10-st-marks-observation-deck-valerie-fellows-usfws.jpg",
+            "alt": "An observation deck on the edge of a canal surrounded by palm trees.",
+            "caption": "St. Marks National Wildlife Refuge, Florida. (Photo: Valerie Fellows/USFWS)"
           }
         ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.763712, 27.590433]
+        "coordinates": [-84.169313, 30.084111]
       }
     }
   ]
