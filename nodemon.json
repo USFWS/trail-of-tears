@@ -1,11 +1,6 @@
 {
   "verbose": true,
-  "ignore": [
-    ".git",
-    "node_modules/**/node_modules"
-  ],
-  "watch": [
-    "src"
-  ],
-  "ext": "js json html jpg pug"
+  "ignore": [".git", "node_modules/**/node_modules"],
+  "watch": ["src"],
+  "ext": "js,json,geojson,html,jpg,pug"
 }
